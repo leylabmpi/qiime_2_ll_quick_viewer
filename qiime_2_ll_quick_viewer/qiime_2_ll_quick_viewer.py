@@ -4,7 +4,6 @@
 import http.server
 import socketserver
 import os
-import sys
 import zipfile
 import secrets
 import tempfile
@@ -24,5 +23,5 @@ def launch_server(filename, port):
     os.chdir(web_dir)
     handler = http.server.SimpleHTTPRequestHandler
     httpd = socketserver.TCPServer(("", port), handler)
-    click.echo("Qiime 2 Ley Lab Viewer serving at port %s, from folder %s" % (port, web_dir))
+    click.echo("Qiime 2 Ley Lab Viewer at port %s, from %s" % (port, web_dir))
     httpd.serve_forever()
