@@ -2,7 +2,7 @@
 History
 =======
 
-0.1.1 (2017-11-27)
+0.2.0 (2017-11-27)
 ------------------
 
 * First functional version of the package.
