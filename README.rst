@@ -18,8 +18,10 @@ Qiime 2 LL Quick Viewer
      :alt: Updates
 
 
-This tool launches a simple web server to quicly visualize the contents locate into the **``data``** folder from
-a [Qiime 2](https://qiime2.org/) visualization artifact i.e. files produced by **Qiime 2** with extension ``\*.qzv``.
+This tool launches a simple web server to quicly visualize the contents locate into the ``data`` folder from
+a `Qiime 2`_ visualization artifact i.e. files produced by **Qiime 2** with extension ``*.qzv``.
+
+.. _Qiime 2: https://qiime2.org/
 
 * Free software: MIT license
 * Documentation: https://qiime-2-ll-quick-viewer.readthedocs.io.
