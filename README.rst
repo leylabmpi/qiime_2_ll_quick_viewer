@@ -19,7 +19,7 @@ Qiime 2 LL Quick Viewer
 
 
 This tool launches a simple web server to quicly visualize the contents locate into the ``data`` folder from
-a `Qiime 2`_ visualization artifact i.e. files produced by **Qiime 2** with extension ``*.qzv``.
+a `Qiime 2`_ visualization artifact, i.e. files produced by **Qiime 2** with extension ``*.qzv``.
 
 .. _Qiime 2: https://qiime2.org/
 
@@ -36,19 +36,39 @@ You can install this tool on a Python 3.6 environment using this command:
 
 
 Usage
---------
+-----
 
 Given a **Qiime 2** visualization artifact e.g. ``demux.qzv`` you can run this command on your server:
 
-``qiime_2_ll_quick_viewer --filename /full_path_to/demux.qzv``
+``$ qiime_2_ll_quick_viewer --filename /full_path_to/demux.qzv``
 
-By default, **qiime_2_ll_quick_viewer** will launch a web server on the port **8089** but you can change it for the one you want with the option `--port XXXX`.
+By default, **qiime_2_ll_quick_viewer** will launch a web server on the port **8089** but you can change it for the one you want with the option ``--port XXXX``.
 Then, you can for example open a SSH tunnel to the remote port opened on your server by **qiime_2_ll_quick_viewer** with this command:
 
 ``$ ssh -L 8089:localhost:8089 user@your_server``
 
-Finally, open a browser and go to this address: [http://localhost:8089](http://localhost:8089).
+Finally, open a browser and go to this address: `http://localhost:8089`_.
 
+.. _http://localhost:8089: http://localhost:8089
+
+Help
+----
+
+``
+Usage: qiime_2_ll_quick_viewer [OPTIONS]
+
+  Quick viewer for Qiime 2 visualization artifacts.
+
+  It launches a simple webserver to visualize the contents of the data
+  folder in a browser. The webserver is launched in your server and you can
+  access through a SSH session with X11 port forwarding enabled.
+
+Options:
+  -f, --filename TEXT  Full path to a Qiime2 visualization file (*.qzv).
+                       [required]
+  -p, --port INTEGER   Port to launch the web server.  [required]
+  -h, --help           Show this message and exit.
+``
 
 Credits
 ---------
