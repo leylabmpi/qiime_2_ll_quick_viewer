@@ -9,10 +9,6 @@ Qiime 2 LL Quick Viewer
 .. image:: https://img.shields.io/travis/gluque/qiime_2_ll_quick_viewer.svg
         :target: https://travis-ci.org/gluque/qiime_2_ll_quick_viewer
 
-.. image:: https://readthedocs.org/projects/qiime-2-ll-quick-viewer/badge/?version=latest
-        :target: https://qiime-2-ll-quick-viewer.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://pyup.io/repos/github/gluque/qiime_2_ll_quick_viewer/shield.svg
      :target: https://pyup.io/repos/github/gluque/qiime_2_ll_quick_viewer/
      :alt: Updates
@@ -24,7 +20,6 @@ a `Qiime 2`_ visualization artifact, i.e. files produced by **Qiime 2** with ext
 .. _Qiime 2: https://qiime2.org/
 
 * Free software: MIT license
-* Documentation: https://qiime-2-ll-quick-viewer.readthedocs.io.
 
 
 Installation
@@ -51,24 +46,12 @@ Finally, open a browser and go to this address: `http://localhost:8089`_.
 
 .. _http://localhost:8089: http://localhost:8089
 
-Help
-----
-
-``
-Usage: qiime_2_ll_quick_viewer [OPTIONS]
-
-  Quick viewer for Qiime 2 visualization artifacts.
-
-  It launches a simple webserver to visualize the contents of the data
-  folder in a browser. The webserver is launched in your server and you can
-  access through a SSH session with X11 port forwarding enabled.
-
-Options:
+Command options:
   -f, --filename TEXT  Full path to a Qiime2 visualization file (*.qzv).
                        [required]
   -p, --port INTEGER   Port to launch the web server.  [required]
-  -h, --help           Show this message and exit.
-``
+  -h, --help           Show the help info and exit.
+
 
 Credits
 ---------

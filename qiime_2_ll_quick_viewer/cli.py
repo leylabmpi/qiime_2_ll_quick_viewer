@@ -17,9 +17,9 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 def main(filename, port):
     """Quick viewer for Qiime 2 visualization artifacts.
 
-    It launches a simple webserver to visualize the contents of the data
-    folder in a browser. The webserver is launched in your server and
-    you can access through a SSH session with X11 port forwarding enabled.
+    It launches a simple web server to visualize the contents of the data
+    folder in a browser.
+    You can access to the server using a SSH tunnel session.
     """
     qiime_2_ll_quick_viewer.launch_server(filename, port)
 
