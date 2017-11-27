@@ -3,7 +3,7 @@
 """Console script for qiime_2_ll_quick_viewer."""
 
 import click
-import qiime_2_ll_quick_viewer
+from qiime_2_ll_quick_viewer import qiime_2_ll_quick_viewer
 
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
