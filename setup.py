@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='qiime_2_ll_quick_viewer',
-    version='0.2.2',
+    version='0.2.3',
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     long_description=readme + '\n\n' + history,
     author="Guillermo Luque",
