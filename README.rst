@@ -14,7 +14,7 @@ Qiime 2 `Ley Lab`_ Quick Viewer
      :alt: Updates
 
 
-This tool launches a simple web server to quicly visualize the contents locate into the ``data`` folder from
+This tool launches a simple web server to quickly visualize the contents locate into the ``data`` folder from
 a `Qiime 2`_ visualization artifact, i.e. files produced by **Qiime 2** with extension ``*.qzv``.
 
 .. _Qiime 2: https://qiime2.org/
