@@ -1,7 +1,7 @@
 =======================
-Qiime 2 LL Quick Viewer
+Qiime 2 `Ley Lab`_ Quick Viewer
 =======================
-
+.. _Ley Lab: http://leylab.tuebingen.mpg.de/
 
 .. image:: https://img.shields.io/pypi/v/qiime_2_ll_quick_viewer.svg
         :target: https://pypi.python.org/pypi/qiime_2_ll_quick_viewer

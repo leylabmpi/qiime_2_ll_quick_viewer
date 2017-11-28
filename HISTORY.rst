@@ -2,6 +2,11 @@
 History
 =======
 
+0.2.3 (2017-11-28)
+------------------
+
+* Repository migrated to Ley Lab's Github account.
+
 0.2.2 (2017-11-27)
 ------------------
 
