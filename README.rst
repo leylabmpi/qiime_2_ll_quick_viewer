@@ -6,10 +6,10 @@ Qiime 2 `Ley Lab`_ Quick Viewer
 .. image:: https://img.shields.io/pypi/v/qiime_2_ll_quick_viewer.svg
         :target: https://pypi.python.org/pypi/qiime_2_ll_quick_viewer
 
-.. image:: https://img.shields.io/travis/gluque/qiime_2_ll_quick_viewer.svg
+.. image:: https://img.shields.io/travis/leylabmpi/qiime_2_ll_quick_viewer.svg
         :target: https://travis-ci.org/leylabmpi/qiime_2_ll_quick_viewer
 
-.. image:: https://pyup.io/repos/github/gluque/qiime_2_ll_quick_viewer/shield.svg
+.. image:: https://pyup.io/repos/github/leylabmpi/qiime_2_ll_quick_viewer/shield.svg
      :target: https://pyup.io/repos/github/leylabmpi/qiime_2_ll_quick_viewer/
      :alt: Updates
 
