@@ -3,7 +3,7 @@
 """Console script for qiime_2_ll_quick_viewer."""
 
 import click
-import qiime_2_ll_quick_viewer
+from qiime_2_ll_quick_viewer import qiime_2_ll_quick_viewer
 
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
@@ -15,11 +15,11 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 @click.option('-p', '--port', required=True, default=8080,
               help="Port to launch the web server.")
 def main(filename, port):
-    """Quick viewer for Qiime 2 visualization artifacts.
+    """Quick viewer for Qiime 2 artifacts.
 
-    It launches a simple webserver to visualize the contents of the data
-    folder in a browser. The webserver is launched in your server and
-    you can access through a SSH session with X11 port forwarding enabled.
+    It launches a simple web server to visualize the contents of the data
+    folder in a browser.
+    You can access to the server using a SSH tunnel session.
     """
     qiime_2_ll_quick_viewer.launch_server(filename, port)
 
