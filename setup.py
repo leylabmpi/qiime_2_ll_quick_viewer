@@ -27,11 +27,11 @@ test_requirements = [
 setup(
     name='qiime_2_ll_quick_viewer',
     version='0.2.3',
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="Ley Lab Quick Viewer for Qiime 2 artifacts.",
     long_description=readme + '\n\n' + history,
     author="Guillermo Luque",
     author_email='guillermo.luque.ds@gmail.com',
-    url='https://github.com/gluque/qiime_2_ll_quick_viewer',
+    url='https://github.com/leylabmpi/qiime_2_ll_quick_viewer',
     packages=find_packages(include=['qiime_2_ll_quick_viewer']),
     entry_points={
         'console_scripts': [
