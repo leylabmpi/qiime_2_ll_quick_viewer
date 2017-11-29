@@ -1,6 +1,10 @@
-=======
 History
 =======
+
+0.2.4 (2017-11-29)
+------------------
+
+* Documentation has been updated to be markdown friendly.
 
 0.2.3 (2017-11-28)
 ------------------
