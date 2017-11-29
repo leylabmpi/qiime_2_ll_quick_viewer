@@ -1,6 +1,6 @@
-=======================
+===============================
 Qiime 2 `Ley Lab`_ Quick Viewer
-=======================
+===============================
 
 .. _Ley Lab: http://leylab.tuebingen.mpg.de/
 
@@ -48,10 +48,12 @@ Finally, open a browser and go to this address: `http://localhost:8089`_.
 .. _http://localhost:8089: http://localhost:8089
 
 Command options:
-  -f, --filename TEXT  Full path to a Qiime2 visualization file (*.qzv).
-                       [required]
-  -p, --port INTEGER   Port to launch the web server.  [required]
-  -h, --help           Show the help info and exit.
+
+.. code-block:: bash
+
+   -f, --filename TEXT  Full path to a Qiime2 visualization file (*.qzv). [required]
+   -p, --port INTEGER   Port to launch the web server. [required]
+   -h, --help           Show the help info and exit.
 
 
 Credits
