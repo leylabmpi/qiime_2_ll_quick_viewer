@@ -26,7 +26,7 @@ a `Qiime 2`_ visualization artifact, i.e. files produced by **Qiime 2** with ext
 Installation
 ------------
 
-You can install this tool on a Python 3.6 environment using either PIP
+You can install this tool on a Python 3.5+ environment using either PIP
 
 ``pip install qiime_2_ll_quick_viewer``
 
