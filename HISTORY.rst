@@ -2,6 +2,16 @@
 History
 =======
 
+0.2.8 (2017-11-30)
+------------------
+
+* Updated version for Python 3.5+ and TOX testing.
+
+0.2.7 (2017-11-30)
+------------------
+
+* Updated version for Python 3.5+.
+
 0.2.6 (2017-11-29)
 ------------------
 
