@@ -42,14 +42,14 @@ Given a **Qiime 2** visualization artifact e.g. ``demux.qzv`` you can run this c
 
 ``$ qiime_2_ll_quick_viewer --filename /full_path_to/demux.qzv``
 
-By default, **qiime_2_ll_quick_viewer** will launch a web server on the port **8089** but you can change it for the one you want with the option ``--port XXXX``.
+By default, **qiime_2_ll_quick_viewer** will launch a web server on the port **8080** but you can change it for the one you want with the option ``--port XXXX``.
 Then, you can for example open a SSH tunnel to the remote port opened on your server by **qiime_2_ll_quick_viewer** with this command:
 
-``$ ssh -L 8089:localhost:8089 user@your_server``
+``$ ssh -L 8080:localhost:8080 user@your_server``
 
-Finally, open a browser and go to this address: `http://localhost:8089`_.
+Then, open a browser and go to this address: `http://localhost:8080`_. To close the web server just press ``CTRL-C``.
 
-.. _http://localhost:8089: http://localhost:8089
+.. _http://localhost:8080: http://localhost:8080
 
 Command options:
 
