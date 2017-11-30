@@ -5,14 +5,15 @@ import http.server
 import socketserver
 import os
 import zipfile
-import secrets
 import tempfile
 import click
+import random
 
 
 def launch_server(filename, port):
     tmp_dir = tempfile.gettempdir()
-    tmp_dir = os.path.join(tmp_dir, secrets.token_hex(8))
+    rand_fn = ''.join([random.choice('0123456789ABCDEF') for x in range(8)])
+    tmp_dir = os.path.join(tmp_dir, rand_fn)
 
     with zipfile.ZipFile(filename, 'r') as zip_ref:
         contents = zip_ref.namelist()
