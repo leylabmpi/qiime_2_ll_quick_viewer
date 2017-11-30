@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='qiime_2_ll_quick_viewer',
-    version='0.2.6',
+    version='0.2.7',
     description="Ley Lab Quick Viewer for Qiime 2 artifacts.",
     long_description=readme + '\n\n' + history,
     author="Guillermo Luque",
